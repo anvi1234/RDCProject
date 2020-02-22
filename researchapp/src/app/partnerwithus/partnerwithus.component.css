@@ -1,0 +1,118 @@
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+
+
+.col-sm-4 img{
+    height:70%;
+    width:100%;
+}
+
+.name{
+    position: relative;
+    top:60px;
+    font-size: 20px;
+}
+.designation{
+    position: relative;
+    top:50px;
+}
+
+
+
+form{
+    position: relative;
+    top:100px;
+    width:75%;
+}
+
+
+
+span{
+    font-size:20px;
+      position: relative;
+  
+  color:grey;
+  text-align:justify
+}
+
+.awesome {
+      
+    
+    width:100%;
+    
+    margin: 0 auto;
+    
+    margin-top:30px;
+    color:#313131;
+    font-size:30px;
+    font-weight: bold;
+    position: absolute;
+    -webkit-animation:colorchange 20s infinite alternate;
+    
+    
+  }
+  h6{
+      margin-top:40px;
+  }
+
+  @-webkit-keyframes colorchange {
+    0% {
+      
+      color: blue;
+    }
+    
+    10% {
+      
+      color: #8e44ad;
+    }
+    
+    20% {
+      
+      color: #1abc9c;
+    }
+    
+    30% {
+      
+      color: #d35400;
+    }
+    
+    40% {
+      
+      color: blue;
+    }
+    
+    50% {
+      
+      color: #34495e;
+    }
+    
+    60% {
+      
+      color: blue;
+    }
+    
+    70% {
+      
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+    }
+
+   
+  }
+  .btn{
+   width:100%;   
+  }

@@ -1,0 +1,33 @@
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+.col-sm-10{
+    /* position: relative;
+    top:80px; */
+   
+    margin-bottom:200px;
+    margin-top:100px;
+    padding-left:50px;
+    padding-right:50px;
+   min-height:700px;
+ font-family: "Ubuntu";
+ color:grey;
+
+
+  
+
+}
+
+h4{
+    color:#1E90FF;
+    font-size:30px;
+    padding-top:40px;
+}
+
+p{
+    font-size:17px;
+      position: relative;
+  
+  color:grey;
+  text-align:justify
+  }
