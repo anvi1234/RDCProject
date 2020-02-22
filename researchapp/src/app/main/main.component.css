@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+h2{
+    font-family: 'Ubuntu';
+   
+}
+
+.h3-responsive{
+    text-shadow: 2px 2px 5px black;
+    font-size:50px;
+    padding-top:60px;
+    
+}
+
+
+
+.carousel-caption{
+    /* width: 100%; */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ .transparent {
+    background: #04091e;
+    position: relative;
+    
+    width: 100%;
+    min-height: 400px;
+    
+   
+  }
+
+  

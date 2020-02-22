@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+ 
+ html,body{
+  height:100%;
+ 
+  background-color:white;
+  font-family: 'Ubuntu'
+  
+}
+
+.col-sm-10{
+  margin-top:100px;
+}
+ 
+
+ 
+
+ ul{
+  list-style-type: none;
+ }
+

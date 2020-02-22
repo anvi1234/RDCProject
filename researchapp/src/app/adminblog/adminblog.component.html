@@ -1,0 +1,19 @@
+
+<div class="adminblog">
+<h3 class="text-center">Dashboard</h3>
+<fieldset>
+
+    <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+<form [formGroup]="UserForm" (ngSubmit)="saveData()">
+   
+    
+  Topic Name:<input type="text" class="form-control" formControlName="topicname"><br>
+  About Topic: <textarea row="100" col="60" class="form-control" formControlName="description">
+       </textarea><br>
+<button type="submit" class="btn btn-primary col-sm-8 offset-sm-2">Save</button>
+</form>
+        </div>
+    </div>
+</fieldset>
+</div>

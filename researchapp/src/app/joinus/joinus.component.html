@@ -1,0 +1,15 @@
+<h4>JOIN US</h4>
+
+<form [formGroup]="UserForm" (ngSubmit)="saveData()">
+
+
+        <input type="text" class="form-control" placeholder="Name" formControlName="name"><br>
+        <input type="text" class="form-control" placeholder="Email" formControlName="email"><br>
+        <input type="text" class="form-control" placeholder="Organisation Name" formControlName="organisation"><br>
+        <input type="text" class="form-control" placeholder="Designation" formControlName="designation"><br>
+        
+        
+     <button type="submit" [disabled]="!UserForm.valid" class="btn btn-primary"> Submit </button>
+    
+    </form>
+

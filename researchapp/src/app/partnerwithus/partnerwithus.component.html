@@ -1,0 +1,76 @@
+
+<div class="row">
+    <div class="col-sm-10 offset-sm-1">
+ <div class="row">
+        <div class="col-sm-8">
+
+            <h4 class="about animated bounceInLeft" >PARTNER WITH US</h4>
+
+            
+ 
+
+            <!-- <div class="row">
+
+         <div class="col-sm-3">
+         
+             <img src="assets/image/ns (1).jpg">
+             <p class="name">DR NEETA SINGH</p>
+             <p class="designation">GBU PROFESSOR</p>
+          
+         </div>
+         <div class="col-sm-3">
+                <img src="assets/image/vs.jpg">
+                <p class="name">DR VIDUSHI SHARMA</p>
+                <p class="designation">GBU PROFESSOR</p>
+            </div>
+        </div>
+     -->
+
+      <h5><b>Become RDC Solution Expert and Consultant
+        </b></h5>
+      <h6 class="animated bounceInRight" ><b>ONE TIME UPLOAD LIFE TIME LOYALTY</b>
+      </h6>
+      <p  class="animated bounceInLeft">
+            Literature databases such as Scopus and Web of Science can be used to identify prolific authors on a subject and to search for subject experts by their location or institutional affiliation.
+
+          </p>
+          <p class="animated bounceInRight">
+                Research networking tools such as ResearchID, ResearchGate, Google Scholar provide a forum for both demonstrating and locating expertise.
+
+          </p>
+          <p class="animated bounceInLeft">
+                RDC Solution provide a forum for proposals and research presentations which are more important to start research.
+
+          </p>
+          <p class="animated bounceInRight">
+                At RDC Solution we welcome National and International Professionals  to share their remarkable full research presentations to achieve this.
+
+
+          </p>
+        <h5 class="awesome">UPLOAD AND EARN</h5>
+       
+
+        
+                <form [formGroup]="partnerfrom" (ngSubmit)="saveData()">
+                <input type="text" class="form-control" formControlName="name" placeholder="Your Name"><br>
+                <input type="text" class="form-control" placeholder="email" formControlName="email"><br>
+               
+                <input type="text" class="form-control" placeholder="Title of Presentation" formControlName="title"><br>
+                <input type="radio" value="provisional" formControlName="provisional" >provisional
+<input type="radio" value="presentation" formControlName="presentation" >Presentation
+                 <input type='file' ng2FileSelect  class="form-control" [uploader]="uploader" name="pdf" formControlName="pdf">
+                  <p>*upload your research presentation in pdf format only/</p>
+               
+  <button class="btn btn-success" (click)="uploader.uploadAll()">Submit</button> 
+                
+             </form>
+
+            </div>
+            <div class="col-sm-4">
+                <img class="animated bounceIn"src="assets/image/partner.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="bb">asdfg</div> -->

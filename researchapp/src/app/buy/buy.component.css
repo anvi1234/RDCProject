@@ -1,0 +1,37 @@
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+.example-card {
+    max-width: 400px;
+    border-top:5px solid #1E90FF; 
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+span{
+      color:grey;
+      display:left;
+      font-size: 24px;
+  }
+ 
+
+  button{
+    width:100%;
+    padding-top:12px;
+  }
+
+  h4{
+    font-family: 'Pacifico';
+  }
+  
+
+  input[type=text]{
+    padding:12px;
+  }
+
+  input[type=password]{
+    padding:12px;
+  }

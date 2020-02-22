@@ -1,0 +1,31 @@
+
+<head>
+
+
+
+                <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+                <meta name='viewport' content='width=device-width, initial-scale=1'>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                </head>
+                <mat-card class="example-card">
+                       
+                                <h4 >Register Here!</h4>
+                        <hr>
+                        <mat-card-content>
+                           
+                                      
+                                         <form [formGroup]="UserForm" (ngSubmit)="saveData()">
+                                            <i style="font-size:24px" class="fa">&#xf2be;</i><input type="text" class="form-control" placeholder="name" formControlName="name">
+                                            <i style="font-size:24px" class="fa">&#xf0e0;</i> <input type="text" class="form-control" placeholder="email" formControlName="email">
+                                                <i style="font-size:24px" class="fa">&#xf023;</i> <input type="password" class="form-control" placeholder="password" formControlName="password"><br>
+                                         <button type="submit" [disabled]="!UserForm.valid" class="btn btn-primary" (click)="onNoClick()"> Submit </button>
+                                        
+                                        </form>
+                               
+                                 
+                                        
+                        
+                        </mat-card-content>
+                       
+            
+                      </mat-card>

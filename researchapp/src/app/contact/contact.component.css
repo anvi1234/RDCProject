@@ -1,0 +1,42 @@
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body{
+    font-family: 'Ubuntu';
+    color:grey;
+}
+img{
+    height:200px;
+    width: 100%;
+    position: relative;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+   
+  
+    display: inline;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    
+  }
+
+
+.col-sm-6{
+    display:inline-block
+}
+.col-sm-4 {
+    margin-top:60px;
+    
+}
+
+.btn{
+    position: absolute;
+  
+  width:120px;
+}

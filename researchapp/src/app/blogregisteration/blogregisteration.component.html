@@ -1,0 +1,13 @@
+<h4>Registeration For Blogger</h4>
+
+<form [formGroup]="UserForm" (ngSubmit)="saveData()">
+
+
+        <input type="text" class="form-control" placeholder="Name" formControlName="name"><br>
+        <input type="text" class="form-control" placeholder="Email" formControlName="email"><br>
+        
+        
+     <button type="submit" (click)="click()&&onNoClick()"[disabled]="!UserForm.valid" class="btn btn-primary"> Submit </button>
+    
+    </form>
+
